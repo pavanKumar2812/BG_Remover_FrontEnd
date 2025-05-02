@@ -73,7 +73,7 @@ $(document).ready(function () {
       const formData = new FormData();
       formData.append('file', file);
 
-      const backendUrl = 'http://127.0.0.1:8000/remove-bg/';  // Your FastAPI endpoint
+      const backendUrl = 'https://bg-remover-backend-xlpd.onrender.com/remove-bg/';  // Your FastAPI endpoint
 
       // Show processing state
       removeBtn.text('Processing...').prop('disabled', true);
